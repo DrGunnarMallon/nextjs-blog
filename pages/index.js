@@ -10,6 +10,18 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <meta
+          property="og:title"
+          content="some amazingly delicious italian cooking"
+        />
+        <meta
+          property="og:description"
+          content="When you combine ingredients that belong together you can create magic. This is what we do at the code kitchen."
+        />
+        <meta
+          property="og:image"
+          content="https://sundaytourists.com/wp-content/uploads/2019/01/D75_8578-1024x684.jpg"
+        />
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Hi, I'm Gunnar. A mesh or light gray strings.</p>
